@@ -6,6 +6,8 @@
   "scripts": {
     "build": "pnpm -r build",
     "build:base": "pnpm --filter=@ramdayal.m/vue3-ui-base build",
-    "publish:base": "pnpm --filter=@ramdayal.m/vue3-ui-base publish --access public"
+    "publish:base": "pnpm --filter=@ramdayal.m/vue3-ui-base publish --access public",
+    "build:buttons": "pnpm --filter=@ramdayal.m/vue3-ui-buttons build",
+    "publish:buttons": "pnpm --filter=@ramdayal.m/vue3-ui-buttons publish --access public"
   }
 }

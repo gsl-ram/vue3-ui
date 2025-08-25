@@ -1,0 +1,34 @@
+{
+  "name": "@ramdayal.m/vue3-ui-buttons",
+  "version": "0.0.2",
+  "private": false,
+  "description": "Button component for our UI library.",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/buttons.umd.cjs",
+  "module": "./dist/buttons.js",
+  "exports": {
+    ".": {
+      "import": "./dist/buttons.js",
+      "require": "./dist/buttons.umd.cjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.9.2",
+    "vite": "^4.5.14",
+    "vue-tsc": "^3.0.6"
+  }
+}
