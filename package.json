@@ -1,0 +1,11 @@
+{
+  "name": "@ramdayal.m/vue3-ui",
+  "description": "A Vue3 UI library",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "build:base": "pnpm --filter=@ramdayal.m/vue3-ui-base build",
+    "publish:base": "pnpm --filter=@ramdayal.m/vue3-ui-base publish --access public"
+  }
+}

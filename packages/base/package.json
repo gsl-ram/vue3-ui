@@ -1,0 +1,26 @@
+{
+  "name": "@ramdayal.m/vue3-ui-base",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Base styles and assets for the UI library.",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/base.umd.cjs",
+  "module": "./dist/base.js",
+  "exports": {
+    ".": {
+      "import": "./dist/base.js",
+      "require": "./dist/base.umd.cjs"
+    },
+    "./css": "./dist/style.css"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5",
+    "typescript": "^5.0.2"
+  }
+}

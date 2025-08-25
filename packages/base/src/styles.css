@@ -1,0 +1,12 @@
+:root {
+  --vue3-ui-primary-color: #007bff;
+  --vue3-ui-secondary-color: #bfd0db;
+}
+
+.vue3-ui-bg-primary {
+  background-color: var(--vue3-ui-primary-color);
+}
+
+.vue3-ui-bg-secondary {
+  background-color: var(--vue3-ui-secondary-color);
+}
