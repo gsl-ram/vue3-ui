@@ -33,7 +33,7 @@ const dynamicClass = computed(() => {
 </script>
 <style>
 .vue3-ui-button {
-  background-color: var(--vue3-ui-primary-color);
+  background-color: #333d9b;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -42,7 +42,8 @@ const dynamicClass = computed(() => {
 }
 
 .vue3-ui-button-disabled {
-  background-color: var(--vue3-ui-secondary-color);
+  background-color: #333d9b;
+  opacity: 0.5;
   cursor: not-allowed;
 }
 

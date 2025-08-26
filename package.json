@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "storybook": "pnpm --filter=@ramdayal.m/vue3-ui-playground storybook",
     "build": "pnpm -r build",
     "build:base": "pnpm --filter=@ramdayal.m/vue3-ui-base build",
     "publish:base": "pnpm --filter=@ramdayal.m/vue3-ui-base publish --access public",
